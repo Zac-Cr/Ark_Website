@@ -1,0 +1,129 @@
+/* Basic Color Settings */
+/* Red = #350501 */
+/* off_white = #cecccc*/
+
+body {
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+
+/* Header Styles */
+.header_container {
+    display:flex;
+    justify-content: space-around;
+    height: 125px;
+    background-color: #350501;
+}
+
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 100%;
+    width: 150px;
+    align-items: center;
+}
+
+
+/* Middle Header */
+.middle_header {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1.8em;
+}
+
+.links_wrapper a{
+    color:#cecccc;
+    text-decoration: none;
+}
+
+
+
+/* Right Header */
+
+.right_header .eco_friendly{
+    font-size: .6rem;
+    display: flex;
+}
+.right_header .eco_friendly_text{
+    color: #cecccc;
+}
+.right_header img{
+    height: 100%;
+    width: 25px;
+    padding-top: 10px;
+}
+
+.right_header .contactus_button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.right_header .contactus_button a{
+    display: flex;
+    justify-content: space-around;
+    color: #cecccc;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 13px solid black;
+    background-color: black;
+    border-radius: 25px;
+}
+
+/* Body Styles */
+.body_container {
+    background-color: #cecccc;
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+}
+
+
+.body_container .body_wrapper {
+    grid-column: 2/3;
+    box-shadow: 2px 0px 24px 9px rgba(0,0,0,0.35);
+}
+
+.body_container .body_wrapper .body_text{
+    margin: 15px;
+    font-size: 1.6rem;
+}
+
+/* Footer styles */
+
+.footer_container{
+    height: 250px;
+    background-color: #350501; 
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footer_links a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #cecccc;
+}
+.footer .footerl{
+    padding: 15px;
+}
+.footer_eco_friendly img{
+    height: 100%;
+    width: 350px;
+    align-items: center;
+}
+.footer .footer_logo img{
+    height: 100%;
+    width: 300px;
+    align-items: center;
+}
