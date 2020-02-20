@@ -80,13 +80,15 @@ p{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1 {
+  display: none;
+}
+.mySlides2{
   display: none;
 }
 
@@ -108,7 +110,13 @@ p{
 
 /* Position the "next button" to the right */
 .next {
+  top: 350px;
   right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  top: 350px;
+  left: 0;
   border-radius: 3px 0 0 3px;
 }
 
