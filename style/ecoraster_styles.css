@@ -340,3 +340,16 @@ p{
     width: 300px;
     align-items: center;
 }
+/* Social media links */
+.social_media_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #350501;
+    height: 25px
+  }
+  .social_media_links i{
+    color: #cecccc;
+    font-size: 1.2rem;
+    opacity: 45%;
+  }
