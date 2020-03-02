@@ -35,6 +35,9 @@
                     <div class="about_us">
                         <a href="about_us.html">About Us</a>
                     </div>
+                    <div class="contact_us">
+                        <a href="contact_us.html">Contact Us</a>
+                    </div>
                 </div>
             </div>
             <div class="links_wrapper_large">
@@ -167,18 +170,5 @@
 toggleMenu()
 function toggleMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
-}
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
 }
 </script>

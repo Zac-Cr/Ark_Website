@@ -99,6 +99,9 @@
     display: grid;
     grid-template-columns: 1fr;
 }
+.contact_text{
+    grid-column: auto;
+}
 
 
 

@@ -52,12 +52,12 @@ p{
 .links_wrapper_large a{
   color: #cecccc;
   text-decoration: none;
-  padding: 5px;
 }
 .links_wrapper_large{
+  width: 100% ;
   display: flex;
   justify-content: space-between;
-  font-size: 1.8rem;
+  align-items: flex-end;
 }
 
 
