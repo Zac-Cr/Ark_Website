@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HomePage</title>
     <link rel="stylesheet" href="style/about_us.css">
+    <link rel="stylesheet" media="screen and (max-width: 1030px)" href="style/mobile_about.css" />
+
     <script src="https://kit.fontawesome.com/d893efb58b.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,19 +18,46 @@
             </div>
         </div>
         <div class="links_wrapper middle_header">
-            <div class="homepage_link">
-                <a href="homepage.html">Home</a>
+            <div class="dropdown">
+                <div class="hamburger">
+                   <button onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+                </div>
+                <div id="myDropdown" class="dropdown-content" >
+                    <div class="homepage_link">
+                        <a href="homepage.html">Home</a>
+                    </div>
+                    <div class="ecoraster_link">
+                        <a href="ecoraster.html">EcoRaster</a>
+                    </div>
+                    <div class="finished_projects">
+                        <a href="finished_prod.html">Finished Projects</a>
+                    </div>
+                    <div class="about_us">
+                        <a href="about_us.html">About Us</a>
+                    </div>
+                </div>
             </div>
-            <div class="ecoraster_link">
-                <a href="ecoraster.html">EcoRaster</a>
+            <div class="links_wrapper_large">
+                <div class="homepage_link">
+                    <a href="homepage.html">Home</a>
+                </div>
+                <div class="ecoraster_link">
+                    <a href="ecoraster.html">EcoRaster</a>
+                </div>
+                <div class="finished_projects">
+                    <a href="finished_prod.html">Finished Projects</a>
+                </div>
+                <div class="about_us">
+                    <a href="about_us.html">About Us</a>
+                </div>
             </div>
-            <div class="finished_projects">
-                <a href="finished_prod.html">Finished Projects</a>
-            </div>
-            <div class="about_us">
-                <a href="about_us.html">About Us</a>
-            </div>
-            
+        </div>
+        
+        <div class="mobile_eco_friendly">
+            <img src="../logos/leaf_white.png" alt="Eco_Friendly">
+                <div class="eco_friendly_text">
+                    <h1>Your Eco-Friendly Paving Solution</h1>
+                </div>
         </div>
         <div class="contact_us right_header">
             <div class="eco_friendly">
@@ -43,6 +72,14 @@
                  </a>
             </div>
            
+        </div>
+    </div>
+    <div class="body_container">
+        <div class="middle_column">
+            <p>We are a rubber paving business that has been in the South East Idaho region, providing an Eco-Friendly solution using tried and true methods that have been developed through customer service and hard work. 
+                We provide resurfacing and paving with recycled rubber, which has the advantage of bringing the playground to your driveway or any other surface at your home with its child safe, impact resistance and industrial grade durability. 
+                Our goal is to provide our customers with a safe alternative to traditional paving and we pride ourselves with putting our customers dreams first and making their projects a reality. Our transition to Ark Rubber Paving has been built on carrying and guiding the region into the age of Eco-Friendly solutions for a better, cleaner Earth.
+            </p>
         </div>
     </div>
 
@@ -80,3 +117,10 @@
         </a>
     </div>
 </body>
+<script>
+toggleMenu();
+function toggleMenu() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+</script>

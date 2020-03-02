@@ -5,6 +5,13 @@ body {
 p{
     margin: 0px;
 }
+.dropdown{
+  display: none;
+}
+
+.mobile_eco_friendly{
+  display: none;
+}
 
 
 /* Header Styles */
@@ -39,6 +46,12 @@ p{
 .links_wrapper a{
     color:#cecccc;
     text-decoration: none;
+}
+.links_wrapper_large{
+  width: 100% ;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 
